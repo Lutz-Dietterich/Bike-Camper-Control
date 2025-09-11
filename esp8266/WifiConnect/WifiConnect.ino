@@ -1,8 +1,8 @@
 
 #include <ESP8266WiFi.h>
 
-const char *WIFI_SSID = "FRITZ!Box 7530 VF";
-const char *WIFI_PASSWORD = "54084965601593359625";
+const char *WIFI_SSID = "SSID";
+const char *WIFI_PASSWORD = "PAsSWORD";
 
 
 WiFiClient client;
