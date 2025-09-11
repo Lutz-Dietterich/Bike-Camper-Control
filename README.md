@@ -80,12 +80,6 @@ Die modulare Bauweise der Solarpaneele ermöglicht eine flexible Nutzung. Sie k�
 
 ### Beleuchtung und Lichtsteuerung
 
-Das Beleuchtungssystem des Wohnwagens ist in drei individuelle Zonen aufgeteilt. Jede Zone wird mit adressierbaren LEDs realisiert, was eine präzise und flexible Lichtgestaltung ermöglicht.
-
-Die Steuerung erfolgt über eine Tasmota-Schnittstelle und ein eigenes Web-Interface, das über einfache HTTP-Requests bedient wird. Diese Art der Steuerung gewährleistet maximale Kompatibilität mit verschiedenen Geräten und Systemen.
-
-Für eine optimale Anpassung an jede Situation kann die Beleuchtung bei Bedarf sehr hell eingestellt werden. Gleichzeitig bietet das System auch eine rote Ambientebeleuchtung für die Nacht. Rotlicht hat den entscheidenden Vorteil, dass es die natürliche Dunkeladaption des menschlichen Auges nicht beeinträchtigt. Das bedeutet, dass die Sehkraft im Dunkeln erhalten bleibt, was besonders nachts oder in der Dämmerung nützlich ist, um sich im Wohnwagen zu orientieren, ohne geblendet zu werden.
-
 <table>
   <tr>
     <td><img src="docs/Camper/camper_images/20250508_195653.jpg" alt="LED Beleuchtung Konzept"></td>
@@ -93,6 +87,12 @@ Für eine optimale Anpassung an jede Situation kann die Beleuchtung bei Bedarf s
     <td><img src="docs/Camper/camper_images/20250508_215501.jpg" alt="Beleuchtung bei Nacht"></td>
   </tr>
 </table>
+
+Das Beleuchtungssystem des Wohnwagens ist in drei individuelle Zonen aufgeteilt. Jede Zone wird mit adressierbaren LEDs realisiert, was eine präzise und flexible Lichtgestaltung ermöglicht.
+
+Die Steuerung erfolgt über eine Tasmota-Schnittstelle und ein eigenes Web-Interface, das über einfache HTTP-Requests bedient wird. Diese Art der Steuerung gewährleistet maximale Kompatibilität mit verschiedenen Geräten und Systemen.
+
+Für eine optimale Anpassung an jede Situation kann die Beleuchtung bei Bedarf sehr hell eingestellt werden. Gleichzeitig bietet das System auch eine rote Ambientebeleuchtung für die Nacht. Rotlicht hat den entscheidenden Vorteil, dass es die natürliche Dunkeladaption des menschlichen Auges nicht beeinträchtigt. Das bedeutet, dass die Sehkraft im Dunkeln erhalten bleibt, was besonders nachts oder in der Dämmerung nützlich ist, um sich im Wohnwagen zu orientieren, ohne geblendet zu werden.
 
 ### Licht Steuerung
 
