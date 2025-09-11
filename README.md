@@ -2,7 +2,14 @@
 
 ## Projektübersicht
 
-Das Smart-Home System-Projekt ermöglicht die Entwicklung eines eigenen Smart-Home Systems basierend auf einem Raspberry Pi Zero W2 als zentrale Steuereinheit und ESP32/ESP8266-Modulen als dezentrale Sensorknoten. Das System bietet umfassende Überwachung und Steuerung verschiedener Komponenten für optimalen Komfort und Energieeffizienz.
+Das gesamte Projekt ist so konzipiert, dass es die Bedürfnisse eines Entwicklers, der gerne in der Natur ist, perfekt erfüllt und die Leidenschaft für IT und Development demonstriert. Die präzise und akribische Arbeitsweise, die ich mir in meiner früheren Tätigkeit in verschiedenen technischen Bereichen angeeignet habe, findet hier ihre direkte Fortsetzung.
+
+Ein Raspberry Pi dient als zentraler Server, der nicht nur das hauseigene Smart-Home-System steuert, sondern auch als flexible Plattform für Development- und Testumgebungen dient.
+
+Diese Umgebung wird durch ein Netzwerk von Microcontrollern wie ESP32/ESP8266 ergänzt, die als dezentrale Sensor- und Aktorknoten fungieren. Dies ermöglicht die Umsetzung eigener Software- und Hardware-Projekte direkt in der Natur.
+
+Synergie von Technologie und Natur
+Die Integration dieser IT-Umgebung in den Fahrradwohnwagen zeigt, wie moderne Technik genutzt werden kann, um eine völlig neue Dimension der Freiheit und Produktivität zu schaffen. Dank der autarken Energieversorgung kann das gesamte System jederzeit und überall betrieben werden. Damit wird der Fahrradohnwagen zum ultimativen Statement: Er verbindet Abenteuer mit digitaler Kreativität und beweist die Fähigkeit, komplexe, funktionale Systeme von Grund auf selbst zu entwickeln.
 
 ## Hardware-Komponenten
 
