@@ -96,7 +96,7 @@ Die Steuerung erfolgt primär über eine Tasmota-Schnittstelle und ein eigenes W
 
 Für den Fall eines Totalausfalls des IT-Systems oder des Web-Interfaces ist die Funktionsfähigkeit der Beleuchtung durch eine redundante Steuerung gesichert: Analoge Schalter ermöglichen weiterhin die grundlegende Bedienung der Lichtanlage.
 
-Für eine optimale Anpassung an jede Situation kann die Beleuchtung bei Bedarf sehr hell eingestellt werden. Gleichzeitig bietet das System auch eine rote Ambientebeleuchtung für die Nacht. Rotlicht hat den entscheidenden Vorteil, dass es die natürliche Dunkeladaption des menschlichen Auges nicht beeinträchtigt. Das bedeutet, dass die Sehkraft im Dunkeln erhalten bleibt, was besonders nachts oder in der Dämmerung nützlich ist, um sich im Wohnwagen zu orientieren, ohne geblendet zu werden.
+Für eine optimale Anpassung an jede Situation kann die Beleuchtung bei Bedarf sehr hell eingestellt werden. Gleichzeitig bietet das System auch eine rote Ambientebeleuchtung für die Nacht. Rotlicht hat nicht nur den entscheidenden Vorteil, dass es die natürliche Dunkeladaption des menschlichen Auges nicht beeinträchtigt, sondern bietet auch einen taktischen Nutzen: Die rote Beleuchtung ist aus der Ferne deutlich schwerer zu erkennen als weißes Licht, was die Sichtbarkeit des Wohnwagens bei Dunkelheit reduziert. Dies kann die Sicherheit erhöhen und ist besonders in der Wildnis von Vorteil. Die Sehkraft im Dunkeln bleibt erhalten, was nachts oder in der Dämmerung nützlich ist, um sich im Wohnwagen zu orientieren, ohne geblendet zu werden.
 
 ### Licht Steuerung
 
