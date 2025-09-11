@@ -50,6 +50,13 @@ Das Smart-Home System-Projekt ermöglicht die Entwicklung eines eigenen Smart-Ho
   </tr>
 </table>
 
+### Konstruktion und Fertigung
+Der Fahrradwohnwagen wurde von Grund auf als ein mehrschichtiger Verbundwerkstoff-Körper in GFK-Leichtbauweise konzipiert. Dieses Composite-Verfahren ermöglicht eine extrem hohe strukturelle Stabilität bei minimalem Gewicht, was für einen Fahrradwohnwagen entscheidend ist.
+
+Die gesamte Konstruktion und Fertigung wurden vollständig eigenständig in eigener Werkstatt realisiert. Alle CNC-Präzisionsteile und komplexen Formteile wurden mit eigenen Maschinen gefräst beziehungsweise mit 3D-Druck-Technologie gefertigt. Diese Autarkie im Fertigungsprozess gewährleistete eine durchgängige Kontrolle über die Qualität und ermöglichte eine präzise Umsetzung des Designs von der ersten Idee bis zum fertigen Produkt.
+
+Eine integrierte Wärmedämmung macht den Wohnwagen zudem für verschiedene klimatische Bedingungen nutzbar und unterstreicht den hohen Anspruch an Funktionalität und Komfort.
+
 ## Solar System
 
 <table>
