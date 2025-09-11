@@ -4,6 +4,51 @@
 
 Das Smart-Home System-Projekt ermöglicht es, ein eigenes Smart-Home System basierend auf einem Raspberry Pi und ESPs zu entwickeln. Das System bietet die Möglichkeit, verschiedene Sensoren und Aktoren einzusetzen, um bestimmte Funktionen im Smart-Home umzusetzen. Das Projekt beinhaltet die Einrichtung der Hardware, die Implementierung der MQTT-Kommunikation, die Programmierung eines Web-Servers und die Entwicklung der ESP-Module.
 
+
+## APP Design
+
+<table>
+  <tr>
+    <td><img src="docs/design/FaWoWa-Control-Home.png" alt="Beschreibung Bild 1"></td>
+    <td><img src="docs/design/FaWoWa-Control-Settings_Temperature.png" alt="Beschreibung Bild 2"></td>
+    <td><img src="docs/design/FaWoWa-Control-Lights.png" alt="Beschreibung Bild 2"></td>
+  </tr>
+</table>
+
+## Fahrradwohnwagen
+
+<table>
+  <tr>
+    <td><img src="docs/Camper/camper_images/20250419_201529.jpg" alt="Beschreibung Bild 1"></td>
+    <td><img src="docs/Camper/camper_images/20250404_074943.jpg" alt="Beschreibung Bild 2"></td>
+    <td><img src="docs/Camper/camper_images/20250818_200319.jpg" alt="Beschreibung Bild 2"></td>
+  </tr>
+</table>
+
+## Solar System
+
+<table>
+  <tr>
+    <td><img src="docs/Camper/camper_images/20250328_100722.jpg" alt="Beschreibung Bild 1"></td>
+    <td><img src="docs/Camper/camper_images/20250328_100911.jpg" alt="Beschreibung Bild 2"></td>
+    <td><img src="docs/Camper/camper_images/20250818_202525.jpg" alt="Beschreibung Bild 2"></td>
+  </tr>
+</table>
+
+## Licht Konzept
+
+<table>
+  <tr>
+    <td><img src="docs/Camper/camper_images/20250508_195653.jpg" alt="Beschreibung Bild 1"></td>
+    <td><img src="docs/Camper/camper_images/20250508_200309.jpg" alt="Beschreibung Bild 2"></td>
+    <td><img src="docs/Camper/camper_images/20250508_215501.jpg" alt="Beschreibung Bild 2"></td>
+  </tr>
+</table>
+
+### Licht Steuerung
+
+https://github.com/Lutz-Dietterich/led-website
+
 ## Funktionalitäten
 
 Das Smart-Home System kann verschiedene Funktionen und Automatisierungen bieten. Hier sind einige Beispiele für mögliche Funktionalitäten:
@@ -48,6 +93,6 @@ das ist noch ein test
 das ist noch ein test
 das isr noch ein test
 das is
-das ist noch ein testdas 
+das ist noch ein testdas
 isr noch ein test
 wir änder das bild
