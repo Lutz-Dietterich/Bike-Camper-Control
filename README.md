@@ -15,22 +15,27 @@ Die Integration dieser IT-Umgebung in den Fahrradwohnwagen zeigt, wie moderne Te
 
 ### Zentrale Steuereinheit
 
--   **Raspberry Pi Zero W2**: Hauptcontroller mit MQTT-Broker und Web-Server
+Raspberry Pi Zero W2: Dient als Hauptcontroller, der als MQTT-Broker und Web-Server fungiert, um die Kommunikation im gesamten System zu steuern und eine Benutzeroberfläche bereitzustellen.
 
-### Mikrocontroller-Module
+Mikrocontroller und Peripherie
+ESP32: Eingesetzt für komplexere Steuerungsaufgaben wie die Lichtsteuerung und das Management mehrerer Sensoren.
 
--   **ESP32**: Für komplexere Steuerungsaufgaben (Lichtsteuerung, mehrere Sensoren)
--   **ESP8266**: Für einfache Sensoraufgaben (Temperatur, Luftqualität)
+ESP8266: Verantwortlich für einfachere Sensoraufgaben, wie die Messung von Temperatur und Luftqualität.
 
-### Sensoren
+BME280: Sensor für die genaue Erfassung von Temperatur, Luftfeuchtigkeit und Luftdruck.
 
--   **BME280**: Temperatur, Luftfeuchtigkeit und Luftdruck
--   **SCD40**: CO2-Sensor für Luftqualitätsmessung
+SCD40: Spezieller Sensor zur CO2-Messung, um die Luftqualität im Innenraum zu überwachen.
 
-### Aktoren
+WS2812 LEDs: Adressierbare RGB-LED-Streifen, die eine flexible und individuelle Beleuchtung in drei Zonen ermöglichen.
 
--   **WS2812 LEDs**: Adressierbare RGB-LED-Streifen für Beleuchtung
--   **Noctua 5V PWM Lüfter**: Leise und effiziente Lüftungssteuerung
+Noctua 5V PWM Lüfter: Sorgen für eine leise und effiziente Belüftungssteuerung.
+
+Energieversorgung
+Autarkes Lithium-Ionen-Batteriesystem: Ein selbstentwickeltes, modulares Energiesystem auf Basis von Lithium-Ionen-Zellen, das eine zuverlässige und unterbrechungsfreie Stromversorgung gewährleistet.
+
+Effektive Solaranlage: Eine auf das System abgestimmte Solaranlage, die die Batterien mit nachhaltiger Sonnenenergie speist und somit eine vollständige Autarkie ermöglicht.
+
+
 
 ## APP Design
 
