@@ -1,27 +1,52 @@
-# Smart-Home System Projekt
+# Smart-Home System für Fahrradwohnwagen
 
-## Projektbeschreibung
+## Projektübersicht
 
-Das Smart-Home System-Projekt ermöglicht es, ein eigenes Smart-Home System basierend auf einem Raspberry Pi und ESPs zu entwickeln. Das System bietet die Möglichkeit, verschiedene Sensoren und Aktoren einzusetzen, um bestimmte Funktionen im Smart-Home umzusetzen. Das Projekt beinhaltet die Einrichtung der Hardware, die Implementierung der MQTT-Kommunikation, die Programmierung eines Web-Servers und die Entwicklung der ESP-Module.
+Das Smart-Home System-Projekt ermöglicht die Entwicklung eines eigenen Smart-Home Systems basierend auf einem Raspberry Pi Zero W2 als zentrale Steuereinheit und ESP32/ESP8266-Modulen als dezentrale Sensorknoten. Das System bietet umfassende Überwachung und Steuerung verschiedener Komponenten für optimalen Komfort und Energieeffizienz.
 
+## Hardware-Komponenten
+
+### Zentrale Steuereinheit
+
+-   **Raspberry Pi Zero W2**: Hauptcontroller mit MQTT-Broker und Web-Server
+
+### Mikrocontroller-Module
+
+-   **ESP32**: Für komplexere Steuerungsaufgaben (Lichtsteuerung, mehrere Sensoren)
+-   **ESP8266**: Für einfache Sensoraufgaben (Temperatur, Luftqualität)
+
+### Sensoren
+
+-   **BME280**: Temperatur, Luftfeuchtigkeit und Luftdruck
+-   **SCD40**: CO2-Sensor für Luftqualitätsmessung
+
+### Aktoren
+
+-   **WS2812 LEDs**: Adressierbare RGB-LED-Streifen für Beleuchtung
+-   **Noctua 5V PWM Lüfter**: Leise und effiziente Lüftungssteuerung
 
 ## APP Design
 
 <table>
   <tr>
-    <td><img src="docs/design/FaWoWa-Control-Home.png" alt="Beschreibung Bild 1"></td>
-    <td><img src="docs/design/FaWoWa-Control-Settings_Temperature.png" alt="Beschreibung Bild 2"></td>
-    <td><img src="docs/design/FaWoWa-Control-Lights.png" alt="Beschreibung Bild 2"></td>
+    <td><img src="docs/design/FaWoWa-Control-Home.png" alt="Home Control Interface"></td>
+    <td><img src="docs/design/FaWoWa-Control-Settings_Temperature.png" alt="Temperature Settings"></td>
+    <td><img src="docs/design/FaWoWa-Control-Lights.png" alt="Light Control Interface"></td>
   </tr>
 </table>
+
+### Web App
+
+-   **Repository**: https://github.com/Lutz-Dietterich/fawowa-next-app
+-   **Demo**: https://fawowa-next-app.vercel.app/
 
 ## Fahrradwohnwagen
 
 <table>
   <tr>
-    <td><img src="docs/Camper/camper_images/20250419_201529.jpg" alt="Beschreibung Bild 1"></td>
-    <td><img src="docs/Camper/camper_images/20250404_074943.jpg" alt="Beschreibung Bild 2"></td>
-    <td><img src="docs/Camper/camper_images/20250818_200319.jpg" alt="Beschreibung Bild 2"></td>
+    <td><img src="docs/Camper/camper_images/20250419_201529.jpg" alt="Fahrradwohnwagen Außenansicht"></td>
+    <td><img src="docs/Camper/camper_images/20250404_074943.jpg" alt="Innenbereich des Wohnwagens"></td>
+    <td><img src="docs/Camper/camper_images/20250818_200319.jpg" alt="Wohnwagen Setup"></td>
   </tr>
 </table>
 
@@ -29,9 +54,9 @@ Das Smart-Home System-Projekt ermöglicht es, ein eigenes Smart-Home System basi
 
 <table>
   <tr>
-    <td><img src="docs/Camper/camper_images/20250328_100722.jpg" alt="Beschreibung Bild 1"></td>
-    <td><img src="docs/Camper/camper_images/20250328_100911.jpg" alt="Beschreibung Bild 2"></td>
-    <td><img src="docs/Camper/camper_images/20250818_202525.jpg" alt="Beschreibung Bild 2"></td>
+    <td><img src="docs/Camper/camper_images/20250328_100722.jpg" alt="Solar Panel Installation"></td>
+    <td><img src="docs/Camper/camper_images/20250328_100911.jpg" alt="Solar System Components"></td>
+    <td><img src="docs/Camper/camper_images/20250818_202525.jpg" alt="Solar Panel Detail"></td>
   </tr>
 </table>
 
@@ -39,60 +64,102 @@ Das Smart-Home System-Projekt ermöglicht es, ein eigenes Smart-Home System basi
 
 <table>
   <tr>
-    <td><img src="docs/Camper/camper_images/20250508_195653.jpg" alt="Beschreibung Bild 1"></td>
-    <td><img src="docs/Camper/camper_images/20250508_200309.jpg" alt="Beschreibung Bild 2"></td>
-    <td><img src="docs/Camper/camper_images/20250508_215501.jpg" alt="Beschreibung Bild 2"></td>
+    <td><img src="docs/Camper/camper_images/20250508_195653.jpg" alt="LED Beleuchtung Konzept"></td>
+    <td><img src="docs/Camper/camper_images/20250508_200309.jpg" alt="Lichtinstallation Detail"></td>
+    <td><img src="docs/Camper/camper_images/20250508_215501.jpg" alt="Beleuchtung bei Nacht"></td>
   </tr>
 </table>
 
 ### Licht Steuerung
 
-https://github.com/Lutz-Dietterich/led-website
+-   **Repository**: https://github.com/Lutz-Dietterich/led-website
+-   **Technologie**: WS2812 adressierbare LED-Streifen
+-   **Features**: Farb- und Helligkeitssteuerung, Effekte und Szenen
 
-## Funktionalitäten
+## Kontrollierte Wohnraumlüftung
 
-Das Smart-Home System kann verschiedene Funktionen und Automatisierungen bieten. Hier sind einige Beispiele für mögliche Funktionalitäten:
+### Funktionen
 
-- Bewegungserkennung: Verwendung von Bewegungssensoren, um Bewegungen in bestimmten Bereichen zu erfassen und entsprechende Aktionen auszulösen, wie das Einschalten von Lichtern oder das Auslösen von Alarmen.
-- Tür- und Fensterüberwachung: Einsatz von Tür- und Fensterkontakten, um den Zustand von Türen und Fenstern zu überwachen und Benachrichtigungen bei ungewöhnlichen Aktivitäten zu erhalten.
-- Umgebungsüberwachung: Messung von Temperatur, Luftfeuchtigkeit und anderen Umgebungsparametern zur Überwachung des Raumklimas.
-- Beleuchtungssteuerung: Steuerung der Beleuchtung basierend auf bestimmten Ereignissen oder Zeitplänen, um Energie zu sparen und den Komfort zu erhöhen.
-- Fernsteuerung: Möglichkeit zur Fernsteuerung des Smart-Home Systems über eine webbasierte Benutzeroberfläche oder eine mobile App.
+-   Kontinuierliche Messung der Luftqualität mit SCD40 (CO2) und BME280 (Temperatur, Luftfeuchtigkeit)
+-   Automatische Steuerung der Noctua 5V PWM Lüfter basierend auf Messwerten
+-   Energieeffiziente PWM-Regelung für optimale Lüftergeschwindigkeit
 
-## Umsetzung
+### Repositories
 
-Die Umsetzung des Smart-Home Systems erfolgt in mehreren Schritten:
+-   **Lüftersteuerung**: https://github.com/Lutz-Dietterich/FaWoWa_Fan
+-   **Temperatur-/Luftfeuchtigkeitssensor**: https://github.com/Lutz-Dietterich/FaWoWa_Temp_Bme280
 
-1. Hardware-Einrichtung:
+## ESP-Konfiguration
 
-   - Verbinden des Raspberry Pi mit dem Netzwerk und Installation des Betriebssystems.
-   - Anschließen des MQTT-Brokers auf dem Raspberry Pi und Überprüfung der Verbindung.
-   - Verbinden der ESPs mit den Sensoren und Aktoren entsprechend den Anleitungen.
+### Access Point Interface für WLAN-Konfiguration
 
-2. MQTT-Kommunikation:
+-   **Repository**: https://github.com/Lutz-Dietterich/micropython_esp32-template
+-   **Features**: MicroWebSrv mit Access Point für einfache WLAN-Konfiguration der ESP-Module
+-   **Unterstützte Module**: ESP32 und ESP8266
 
-   - Installation der erforderlichen MQTT-Bibliotheken auf dem Raspberry Pi und den ESPs.
-   - Einrichten des MQTT-Protokolls zur Kommunikation zwischen den Sensoren und der Zentrale.
-   - Konfiguration der ESPs zur Verbindung mit dem MQTT-Broker und Übertragung der Sensordaten.
+## System-Funktionalitäten
 
-3. Web-Server:
+### Umweltüberwachung
 
-   - Installation einer geeigneten Webserver-Bibliothek auf dem Raspberry Pi.
-   - Programmierung des Web-Servers, um MQTT-Nachrichten zu abonnieren und relevante Informationen auf einer HTML-Seite darzustellen.
-   - Anpassung des Layouts und der Darstellung mittels CSS, um eine ansprechende Benutzeroberfläche zu erhalten.
+-   **Temperatur und Luftfeuchtigkeit**: BME280-Sensoren in verschiedenen Bereichen
+-   **Luftqualität**: SCD40-Sensoren für CO2-Überwachung
+-   **Luftdruck**: Zusätzliche Wetterinformationen über BME280
 
-4. ESP-Programmierung:
+### Automatisierte Steuerung
 
-   - Installation der erforderlichen Entwicklungsumgebung (z.B. Arduino IDE) für die ESP-Programmierung.
-   - Programmierung der ESPs, um die Sensordaten auszulesen und über MQTT an den Raspberry Pi zu senden.
+-   **Intelligente Lüftung**: Automatische Anpassung der Noctua PWM-Lüfter basierend auf CO2-Werten
+-   **Adaptive Beleuchtung**: WS2812 LED-Steuerung mit Szenen und Zeitplänen
+-   **Energiemanagement**: Integration mit Solarsystem für optimierte Energienutzung
 
-5. Erweiterungen:
-   - Möglichkeit zur Integration weiterer Sensoren, Aktoren oder Funktionen basierend auf den individuellen Anforderungen und Vorlieben.
+### Benutzeroberfläche
 
-das ist noch ein test
-das ist noch ein test
-das isr noch ein test
-das is
-das ist noch ein testdas
-isr noch ein test
-wir änder das bild
+-   **Web-Dashboard**: Responsive Next.js-Anwendung
+-   **Mobile Unterstützung**: Optimiert für Smartphone und Tablet
+-   **Echtzeit-Updates**: MQTT-basierte Live-Datenübertragung
+
+## Technische Architektur
+
+### Kommunikation
+
+-   **Protokoll**: MQTT für alle Geräte-zu-Gerät Kommunikation
+-   **Broker**: Mosquitto auf Raspberry Pi Zero W2
+-   **Netzwerk**: WLAN mit automatischer ESP-Konfiguration
+
+### Software-Stack
+
+-   **Zentrale**: Python mit MQTT-Client auf Raspberry Pi Zero W2
+-   **ESPs**: MicroPython für ESP32/ESP8266
+-   **Frontend**: Next.js Web-Anwendung
+-   **Backend**: Node.js mit MQTT-Integration
+
+## Implementierungsschritte
+
+### 1. Hardware-Setup
+
+-   Raspberry Pi Zero W2 Einrichtung mit Raspbian OS
+-   MQTT-Broker (Mosquitto) Installation und Konfiguration
+-   ESP32/ESP8266 Module mit Sensoren und Aktoren verbinden
+
+### 2. Software-Entwicklung
+
+-   MicroPython-Firmware auf ESP-Module flashen
+-   MQTT-Kommunikation zwischen allen Komponenten etablieren
+-   Web-Server und Dashboard auf Pi Zero W2 implementieren
+
+### 3. Sensor-Integration
+
+-   BME280-Sensoren für Umweltdaten kalibrieren
+-   SCD40-Sensoren für CO2-Messung einrichten
+-   Datenerfassung und -übertragung optimieren
+
+### 4. Aktor-Steuerung
+
+-   WS2812 LED-Streifen programmieren und testen
+-   Noctua PWM-Lüfter Steuerung implementieren
+-   Automatisierungslogik entwickeln
+
+### 5. System-Integration
+
+-   Alle Komponenten in das MQTT-Netzwerk integrieren
+-   Web-Interface finalisieren und testen
+-   Monitoring und Logging implementieren
