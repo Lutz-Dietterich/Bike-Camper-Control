@@ -68,6 +68,14 @@ Eine integrierte Wärmedämmung macht den Wohnwagen zudem für verschiedene klim
   </tr>
 </table>
 
+### Solar- und Energiesystem
+
+Der Fahrradwohnwagen ist mit einem autarken 12V-Solarsystem mit einer Spitzenleistung von 150W ausgestattet. Dieses System ist darauf ausgelegt, auch bei minimaler Sonneneinstrahlung die grundlegenden Energiebedürfnisse zu decken. Mit den 150W Peak-Panels ist eine autarke Versorgung für gängige Verbraucher wie Smartphones, Internet-Hotspots und die Bordelektronik gewährleistet, sodass der Betrieb über rund 10 Tage ohne direkte Sonne sichergestellt ist.
+
+### Vielseitigkeit und Effizienz
+
+Die modulare Bauweise der Solarpaneele ermöglicht eine flexible Nutzung. Sie können so positioniert werden, dass sie auch bei einem im Schatten abgestellten Wagen immer perfekt zur Sonne ausgerichtet sind. Im Sommer wird so stets genügend Energie erzeugt, um die Bordelektronik, das IT-System samt Server und Microcontroller, sowie alle persönlichen Geräte zu versorgen. Darüber hinaus kann bei sonnigen Verhältnissen auch der Fahrradakku problemlos geladen werden. Diese hohe Effizienz stellt eine 100%ige Unabhängigkeit von externen Stromquellen sicher und unterstreicht die autarke Natur des Projekts.
+
 ## Licht Konzept
 
 <table>
