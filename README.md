@@ -66,6 +66,8 @@ Effektive Solaranlage: Eine auf das System abgestimmte Solaranlage, die die Batt
 
 Der Fahrradwohnwagen wurde als mehrschichtiger Verbundwerkstoff-Körper in GFK-Leichtbauweise entworfen. Dieses Composite-Verfahren ermöglicht eine extrem hohe Stabilität bei minimalem Gewicht, was für einen Fahrradwohnwagen entscheidend ist.
 
+Die Proportionierung der gesamten Konstruktion basiert auf dem Goldenen Schnitt (Phi = 1,618), wodurch nicht nur eine harmonische Ästhetik, sondern auch optimale strukturelle Verhältnisse zwischen Länge, Breite und Höhe erreicht werden.
+
 Die gesamte Konstruktion und Fertigung wurden vollständig eigenständig in eigener Werkstatt realisiert. Alle Komponenten, einschließlich der CNC-Präzisionsteile und komplexen Formteile, wurden selbst in CAD-Software designt und anschließend mit eigenen,zum teil selbst gebauten, Maschinen gefräst beziehungsweise mit 3D-Druck-Technologie gefertigt. Diese Autarkie im Design- und Fertigungsprozess gewährleistete eine durchgängige Qualitätskontrolle und eine präzise Umsetzung des Konzepts von der ersten Idee bis zum fertigen Produkt.
 
 Eine integrierte Wärmedämmung macht den Wohnwagen zudem für verschiedene klimatische Bedingungen nutzbar und unterstreicht den hohen Anspruch an Funktionalität und Komfort.
