@@ -53,7 +53,7 @@ Effektive Solaranlage: Eine auf das System abgestimmte Solaranlage, die die Batt
 -   **Demo**: https://fawowa-next-app.vercel.app/
 
 Siehe auch https://github.com/Lutz-Dietterich/fawowaControl
-, ein früher Ansatz mit ESP32-gehostetem Webinterface. Aufgrund energetischer Vorteile wurde zuerst der das Hosting des Interfaces direkt vom ESP32 implementiert, aber aufgrund der begrenzten Leistung des ESP32, erfolgte später der Wechsel auf eine Raspberry-Pi-Infrastruktur.
+, ein früher Ansatz mit ESP32-gehostetem Webinterface. Zunächst wurde das Hosting aus energetischen Gründen direkt auf dem ESP32 umgesetzt, aufgrund seiner begrenzten Leistung erfolgte später jedoch der Wechsel auf eine Raspberry-Pi-Infrastruktur.
 
 ## Fahrradwohnwagen
 
